@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(249, 158, 247);
+    border-radius: 10px;
+    padding: 20px;
+    width:15cm;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width:10cm
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
